@@ -23,7 +23,7 @@ const skillCategories = [
       "Cloudinary",
       "Vercel",
       "Railway",
-      "ChatGPT Go",
+      "ChatGPT Go (GPT-5.5)",
       "Gemini 3.1 Pro",
     ],
   },
