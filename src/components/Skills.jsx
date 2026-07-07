@@ -19,8 +19,6 @@ const skillCategories = [
       "Git",
       "GitHub",
       "Postman",
-      "Vercel",
-      "Railway",
       "Cloudinary",
     ],
   },
