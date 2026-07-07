@@ -21,6 +21,10 @@ const skillCategories = [
       "GitHub",
       "Postman",
       "Cloudinary",
+      "Vercel",
+      "Railway",
+      "ChatGPT Go",
+      "Gemini 3.1 Pro",
     ],
   },
 ];
