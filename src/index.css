@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #050816;
+  --foreground: #ffffff;
+
+  --cyan: #22d3ee;
+  --blue: #3b82f6;
+  --purple: #8b5cf6;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+
+  background: var(--background);
+  color: var(--foreground);
+
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #67e8f9;
+}
+
+.glow-cyan {
+  box-shadow:
+    0 0 20px rgba(34, 211, 238, 0.3),
+    0 0 50px rgba(34, 211, 238, 0.15);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  font-weight: 700;
+
+  text-align: center;
+
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  max-width: 700px;
+
+  margin: auto;
+
+  text-align: center;
+
+  color: rgb(148 163 184);
+}
