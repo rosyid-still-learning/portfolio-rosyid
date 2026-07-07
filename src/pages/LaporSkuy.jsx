@@ -155,7 +155,6 @@ function LaporSkuy() {
                 "Laravel 12",
                 "React.js",
                 "MySQL",
-                "Laravel Sanctum",
                 "Postman",
               ].map((tech) => (
 

@@ -13,7 +13,6 @@ const projects = [
       "Sistem booking ruangan berbasis web yang mendukung proses peminjaman ruangan, manajemen data ruangan, upload dokumen, serta persetujuan peminjaman secara digital.",
     tech: [
       "Laravel 12",
-      "React.js",
       "Next.js",
       "MySQL",
       "Cloudinary",
